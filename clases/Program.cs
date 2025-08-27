@@ -26,11 +26,31 @@ namespace clases
 
                      case 2:
                         Console.WriteLine("Dame un numero");
-                        int a = int.Parse (Console.ReadLine());
+                        int e = int.Parse (Console.ReadLine());
                         Console.WriteLine("Dame otro numero");
-                        int b = int.Parse((string) Console.ReadLine());
-                        Console.WriteLine("La resta es " + acciones.restar(a,b));
+                        int i = int.Parse(Console.ReadLine());
+                        Console.WriteLine("La resta es " + acciones.restar(e,i));
                         break;
+
+                     case 3:
+                        Console.WriteLine("Dame un numero");
+                        int u = int.Parse (Console.ReadLine());
+                        Console.WriteLine("Dame otro numero");
+                        int o = int.Parse(Console.ReadLine());
+                        Console.WriteLine("La multiplicacion es " + acciones.multiplicar(u, o));
+                        break;
+                        
+                    case 4:
+                        Console.WriteLine("Dame un numero");
+                        int r = int.Parse (Console.ReadLine());
+                        Console.WriteLine("Dame otro numero");
+                        int m = int.Parse (Console.ReadLine());
+                        Console.WriteLine("La division es "+ acciones.dividir(r,m));
+                        break;
+                        
+                    case 5:
+                        Environment.Exit(0);
+                        break;  
 
                     default:
                         break;

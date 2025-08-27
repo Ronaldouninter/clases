@@ -13,17 +13,17 @@ namespace clases
             return a + b;   
             
         }
-        public int restar (int a , int b)
+        public int restar (int e , int i)
         {
-            return a - b;
+            return e - i;
         }
-        public int multiplicar (int a, int b)
+        public int multiplicar (int u, int o)
         {
-            return a * b;
+            return u * o;
         }
-        public int dividir (int a, int b)
+        public int dividir (int r, int m)
         {
-            return a / b;
+            return r / m;
         }
 
         
